@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contract & Procurement Discussion Forum</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div id="app"></div>
+
+    <!-- Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+    <!-- Firebase Config -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyBYlx3WJgLr9O4S3_EWfa04StHqRzAWIx8",
+        authDomain: "candp-327c9.firebaseapp.com",
+        projectId: "candp-327c9",
+        storageBucket: "candp-327c9.firebasestorage.app",
+        messagingSenderId: "597664917927",
+        appId: "1:597664917927:web:1238725dacab7926e9ee82",
+        measurementId: "G-H8RFJ769XT"
+      };
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+      const db = firebase.firestore();
+    </script>
+
+    <!-- App Script -->
+    <script src="assets/app.js"></script>
+</body>
+</html>
